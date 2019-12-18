@@ -18,7 +18,7 @@ const forecast = (long,lat , callback) => {
       else {
        callback(undefined, 
 
-         'It is currently ' + body.currently.temperature + ' degrees out. There is a ' + body.currently.precipProbability + '% chance of rain'
+         'It is currently ' + body.currently.temperature + ' degrees out. Humidity is ' + body.currently.humidity + ' , and there is a ' + body.currently.precipProbability + '% chance of rain'
         
     )
       }
